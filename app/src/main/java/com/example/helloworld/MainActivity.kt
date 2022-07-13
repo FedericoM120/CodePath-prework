@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.text.Editable
 import android.util.Log
 import android.view.View
+import android.view.inputmethod.EditorInfo
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -43,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             nicknameTextView.text = "Hello from Federico!"
 
         }
-        //user taps on button to change background colo
+        //user taps on button to change background color
         findViewById<Button>(R.id.button2).setOnClickListener {
             //handles backgroundColor button tap
             Log.i("button2Caller", "Tapped on button2")
@@ -70,6 +71,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 addNickname(it)
             }
+            findViewById<Button>(R.id.button3).onEditorAction(EditorInfo.IME_ACTION_DONE)
         }
 
     }
