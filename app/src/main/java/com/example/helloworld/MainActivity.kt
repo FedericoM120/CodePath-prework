@@ -58,6 +58,12 @@ class MainActivity : AppCompatActivity() {
             val nicknameTextView = findViewById<TextView>(R.id.textView)
             nicknameTextView.text = editText.text
         }
+        //user taps on button to change textView text to: android is awesome!
+        findViewById<Button>(R.id.button4).setOnClickListener {
+            val defaultMessage = "Android is awesome!"
+            val androidTextView = findViewById<TextView>(R.id.textView)
+            androidTextView.text = defaultMessage
+        }
 
         //user taps on button to change textView text to the text he entered in the editText box
         findViewById<Button>(R.id.button3).setOnClickListener {
