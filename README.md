@@ -1,7 +1,7 @@
 ## NAME_OF_YOUR_APP_HERE
 
 ### App Description
-`TODO://` Add app description
+`TODO://` User is able to change textview by entering their own text and clicking button to confirm the change. Other features include changing background color, changing textview color, a button when clicked changes the textview to a fixed string and clicking the background to reset the view settings to default.
 
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
